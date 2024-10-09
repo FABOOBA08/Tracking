@@ -1,0 +1,14 @@
+{
+    "testing.coverageBarThresholds": {
+
+        "red": 0,
+        "yellow": 60,
+        "green": 90
+    },
+    "editor.linkedEditing": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "left",
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "editor.codeActionsOnSave": {},
+}

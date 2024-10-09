@@ -1,0 +1,88 @@
+/* src/login/Login.css */
+
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container {
+    display: flex;
+    height: 100vh;
+    width: 50%;
+  }
+  
+  .login-image-container {
+    position: absolute; /* Posición absoluta dentro del contenedor principal */
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  }
+  
+  .login-image-container .bg-holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  .transparencia {
+    position: absolute; /* Posición absoluta dentro del contenedor principal */
+    top: 15;
+    left: 135vh;
+    width: 30%;
+    height: 70%;
+    align-content: center;
+
+    }
+  
+  .login-logo {
+    width: 90px;
+    height: auto;
+  }
+  
+  .btoningreso {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btoningreso:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-group-text {
+    background-color: #e9ecef;
+  }
+  
+  .input-group-text i {
+    color: #495057;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h3.fw-bold {
+    margin-bottom: 1rem;
+  }
+  
+  .bienvenida {
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+  
+  .position-relative hr {
+    margin: 1rem 0;
+  }
+  
